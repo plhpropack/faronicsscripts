@@ -1,1 +1,1 @@
-copy C:\Windows\SoftwareDistribution\ReportingEvents.txt \\w2k16adfs\wu$\ReportingEvents.txt
+copy C:\Windows\SoftwareDistribution\ReportingEvents.log \\w2k16adfs\wu$\ReportingEvents.log
