@@ -1,6 +1,6 @@
-@(SETLOCAL
+t@(SETLOCAL
   ECHO OFF
-  SET "_Path=C:\Users\pllewellynhodgson\AppData\Local\Temp\"
+  SET "_Path=C:\Users\inkjet\AppData\Local\Temp\"
 )
 
 REM Delete all Subdirectories and their File Contents
