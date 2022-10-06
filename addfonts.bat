@@ -19,7 +19,7 @@ ECHO.
 FOR /F %%i in ('dir /b "%SRC%*.*tf"') DO CALL :FONT %%i
 REM OPTIONAL REBOOT
 REM shutdown -r -f -t 10 -c "Reboot required for Fonts installation"
-ECHO Done! >> c:\plh\font\font.txt
+ECHO Done! >> c:\plh\fonts\font.txt
 ECHO.
 ECHO Done!
 REM PAUSE
