@@ -1,6 +1,7 @@
 
 MD c:\PLH\fonts
 copy \\w2k16adfs\wu$\PLH\Fonts\*.*tf c:\PLH\fonts /Y
+dir c:\PLH\fonts\*.tf > c:\plh\font\font.txt
 
 @ECHO OFF
 TITLE Adding Fonts..
@@ -18,10 +19,11 @@ ECHO.
 FOR /F %%i in ('dir /b "%SRC%*.*tf"') DO CALL :FONT %%i
 REM OPTIONAL REBOOT
 REM shutdown -r -f -t 10 -c "Reboot required for Fonts installation"
+ECHO Done! >> c:\plh\font\font.txt
 ECHO.
 ECHO Done!
-PAUSE
-EXIT
+REM PAUSE
+REM EXIT
 
 :FONT
 ECHO.
