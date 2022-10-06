@@ -1,7 +1,7 @@
 
 MD c:\PLH\fonts
 copy \\w2k16adfs\wu$\PLH\Fonts\*.*tf c:\PLH\fonts /Y
-dir c:\PLH\fonts\*.*tf > c:\plh\font\font.txt
+dir c:\PLH\fonts\*.*tf > c:\plh\fonts\font.txt
 
 @ECHO OFF
 TITLE Adding Fonts..
