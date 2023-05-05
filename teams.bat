@@ -1,2 +1,3 @@
-\\w2k16adfs\wu$\Microsoft365\Teams_windows_x64.exe -s
+copy \\w2k16adfs\wu$\Microsoft365\Teams_windows_x64.exe c:\plh\Teams_windows_x64.exe /Y
+c:\plh\Teams_windows_x64.exe -s
 type teams > c:\plh\teams.txt
