@@ -1,3 +1,5 @@
+md c:\PLH 2> NUL
+
 powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/plhpropack/faronicsscripts/main/lock.jpg' -OutFile 'c:\plh\lock_.jpg'
 powershell -c "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/plhpropack/faronicsscripts/main/desktop.jpg' -OutFile 'c:\plh\desktop_.jpg'
 
