@@ -16,4 +16,4 @@ REM (Start-Process "msiexec.exe" -ArgumentList "/i $dirFiles\ABDS2017\Img\x64\RV
 
 
 
-powershell -Command Start-Process 'msiexec.exe' -ArgumentList '/I "C:\PLH\wsasme.msi" GUILIC=1954-cntm-cc35-9246-4d66 /qn /l*v c:\plh\install.log' -Wait
+REM powershell -Command Start-Process 'msiexec.exe' -ArgumentList '/I "C:\PLH\wsasme.msi" GUILIC=1954-cntm-cc35-9246-4d66 /qn /l*v c:\plh\install.log' -Wait
