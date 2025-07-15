@@ -9,3 +9,7 @@
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
 "RotatingLockScreenEnabled"=dword:00000000
 "RotatingLockScreenOverlayEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"Wallpaper"="\\\\W2K16ADFS\\wallpapers\\desktop.jpg"
+"WallpaperStyle"="4"
