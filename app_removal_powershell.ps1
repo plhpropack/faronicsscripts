@@ -11,7 +11,16 @@ xcopy "\\w2k16adfs\Propack Unclassifed (UN)\Propack\lock.jpg" "C:\plh\lock.jpg" 
 
 
 set __COMPAT_LAYER=RunAsInvoker
-REGEDIT.EXE /S "c:\plh\lockscreen.reg"
+#REGEDIT.EXE /S "c:\plh\lockscreen.reg"
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP /v "LockScreenImagePath" /t REG_SZ /d "C:\\plh\\lock.jpg" /f
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP /v "LockScreenImageUrl" /t REG_SZ /d "C:\\plh\\lock.jpg" /f
+reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP /v "LockScreenImageStatus" /t REG_DWORD  /d "1" /f
+
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v "RotatingLockScreenEnabled" /t REG_DWORD  /d "0" /f
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v "RotatingLockScreenOverlayEnabled" /t REG_DWORD  /d "0" /f
+
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v "Wallpaper" /t REG_SZ /d "C:\\plh\\desktop.jpg" /f
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v "Wallpaper" /t REG_SZ  /d "C:\\plh\\desktop.jpg" /f
 
 del c:\plh\lockscreen.reg /y
 
