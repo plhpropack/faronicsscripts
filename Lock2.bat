@@ -16,4 +16,4 @@ reg add HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager /v "RotatingLockScreenOverlayEnabled" /t REG_DWORD  /d "0"
 
 reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v "Wallpaper" /t REG_SZ /d "C:\plh\desktop.jpg" /f
-reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v "Wallpaper" /t REG_SZ  /d "C:\plh\desktop.jpg" /f
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v "WallpaperStyle" /t REG_SZ  /d "4" /f
