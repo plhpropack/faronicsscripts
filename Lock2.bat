@@ -1,4 +1,8 @@
 
+
+
+
+
 reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP /v "LockScreenImagePath" /t REG_SZ /d "C:\\plh\\lock.jpg" /f > c:\plh\lock2.txt
 reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP /v "LockScreenImageUrl" /t REG_SZ /d "C:\\plh\\lock.jpg" /f >> c:\plh\lock2.txt
 reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP /v "LockScreenImageStatus" /t REG_DWORD  /d "1" /f >> c:\plh\lock2.txt
