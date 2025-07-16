@@ -4,7 +4,7 @@ md c:\PLH
 
 Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/plhpropack/faronicsscripts/main/lock.jpg' -OutFile 'c:\plh\lock.jpg'
 Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/plhpropack/faronicsscripts/main/desktop.jpg' -OutFile 'c:\plh\desktop.jpg'
-Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/plhpropack/faronicsscripts/refs/heads/main/lockscreen.reg'  -OutFile 'c:\plh\lockscreen.reg'
+#Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/plhpropack/faronicsscripts/refs/heads/main/lockscreen.reg'  -OutFile 'c:\plh\lockscreen.reg'
 
 xcopy "\\w2k16adfs\Propack Unclassifed (UN)\Propack\desktop.jpg" "C:\plh\desktop.jpg" /h /y
 xcopy "\\w2k16adfs\Propack Unclassifed (UN)\Propack\lock.jpg" "C:\plh\lock.jpg" /h /y
